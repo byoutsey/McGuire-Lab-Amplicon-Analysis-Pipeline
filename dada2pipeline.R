@@ -2,6 +2,7 @@
 
 # McGuire Lab, University of Oregon. Created by Ben Cosgrove, Brett Youtsey, Josh Sakai, & Sam Velazquez
 # Adapted from tutorials created by Devin Dinwiddie & DADA2 tutorial 1.12 (https://benjjneb.github.io/dada2/tutorial.html)
+# Compatible with R version 3.5.1
 
 exit <- function() {
 # Ends the script. Will be used in the event of an error.
