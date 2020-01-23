@@ -1,8 +1,9 @@
 #!/usr/bin/env Rscript
 
 # McGuire Lab, University of Oregon. Created by Ben Cosgrove, Brett Youtsey, Josh Sakai, & Sam Velazquez
-# Adapted from tutorials created by Devin Dinwiddie & DADA2 tutorial 1.12 (https://benjjneb.github.io/dada2/tutorial.html)
+# Adapted from tutorials created by Devin Dinwiddie & the DADA2 tutorial 1.12 (https://benjjneb.github.io/dada2/tutorial.html)
 # Compatible with R version 3.5.1
+# DADA2 PIPELINE: script 4 after `dedupSAM.sh`
 
 exit <- function() {
 # Ends the script. Will be used in the event of an error.
@@ -18,7 +19,7 @@ library(optparse)
 option_list <- list(
   make_option(c("-r", "--reads"), help = "Path to directory containing demultiplexed reads (_R1.fastq.gz & _R2.fastq.gz). MUST BE COMPRESSED (gz)"),
   make_option(c("-o", "--outputDirectory"), help = "Will create directory where outputs are stored"),
-  make_option(c("-U", "--taxonRef"), help = "Taxon reference in fasta format with taxanomic strata in the header"),
+  make_option(c("-U", "--taxonRef"), help = "Taxon reference in fasta format with taxonomic strata in the header"),
   make_option(c("-m", "--metadata"), help = "Metadata csv containing same sample names as input reads in the first column"),
   make_option(c("-f", "--formula"), help = "Formula for experimental design in deseq2 (used in variance transformation) FORMAT: ~var1+var2+varx (Variables must exactly match colnames in the metadata file)")
 )
