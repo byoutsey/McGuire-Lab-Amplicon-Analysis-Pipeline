@@ -18,3 +18,5 @@ orient.py >
 align_multiple.R >
 dedupSAM.sh >
 dada2pipeline.R 
+
+![](diagram.png)
