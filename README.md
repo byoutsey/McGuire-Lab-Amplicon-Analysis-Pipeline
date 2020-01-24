@@ -14,7 +14,7 @@ OUTPUTS:
 
 
 Order: 
-orient.py
-align_multiple.R
-dedupSAM.sh 
-dada2pipeline.R
+orient.py >
+align_multiple.R >
+dedupSAM.sh >
+dada2pipeline.R 
