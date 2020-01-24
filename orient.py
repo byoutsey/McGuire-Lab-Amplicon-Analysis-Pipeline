@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+# DADA2 PIPELINE: script 1
+
 
 import gzip
 import argparse
