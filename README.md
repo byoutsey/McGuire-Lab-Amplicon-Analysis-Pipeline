@@ -2,7 +2,7 @@
 Pipeline for demultiplexing, deduplication, DADA2, & variance transformation of amplicon sequencing data
 generated from a novel adapter scheme developed in the McGuire Lab (University of Oregon)
 
-![](diagram.png)
+![](pipeline_diagram.png)
 
 INPUTS: 
 Raw sequencing FASTQ output with barcode mapping file, according to the specifications of the Genomics & Cell Characterization Core Facility (GC3F) at the University of Oregon.
