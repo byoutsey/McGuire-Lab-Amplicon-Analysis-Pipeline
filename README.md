@@ -2,6 +2,9 @@
 Pipeline for demultiplexing, deduplication, DADA2, & variance transformation of amplicon sequencing data
 generated from a novel adapter scheme developed in the McGuire Lab (University of Oregon)
 
+MORE TO COME: 
+Snakemake optimization
+
 ![](pipeline_diagram.png)
 
 INPUTS: 
